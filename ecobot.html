@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EcoBot - Assistente Ambiental</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- MENU LATERAL -->
+
+<aside class="sidebar">
+
+<h2>🌱 EcoAgro</h2>
+
+<nav>
+
+<a href="index.html">🏠 Início</a>
+
+<a href="carbono.html">🌎 Carbono</a>
+
+<a href="praticas.html">♻ Sustentabilidade</a>
+
+<a href="compostagem.html">🏫 Compostagem</a>
+
+<a href="ecobot.html">🤖 EcoBot</a>
+
+</nav>
+
+<div class="versao">
+
+Projeto Agrinho 2026
+
+</div>
+
+</aside>
+
+<!-- CONTEÚDO -->
+
+<main class="conteudo">
+
+<section class="ecoBotArea">
+
+<div class="mascote">
+
+🌱🤖
+
+</div>
+
+<h1>EcoBot</h1>
+
+<p>
+
+Seu assistente virtual sobre sustentabilidade,
+ESG e meio ambiente.
+
+</p>
+
+</section>
+
+<section class="chat-container">
+
+<div id="chatbox">
+
+<div class="bot-msg">
+
+<div class="cabecalhoBot">
+
+<div class="avatarBot">
+
+🌱
+
+</div>
+
+<div>
+
+<h3>EcoBot</h3>
+
+<span>Assistente Ambiental</span>
+
+</div>
+
+</div>
+
+<hr>
+
+<p>
+
+Olá! Sou o EcoBot.
+
+Posso ajudar você com:
+
+</p>
+
+<ul class="listaBot">
+
+<li>🌎 Carbono</li>
+
+<li>♻ Sustentabilidade</li>
+
+<li>🌱 Compostagem</li>
+
+<li>💧 Água</li>
+
+<li>🌾 Agricultura Sustentável</li>
+
+<li>🏆 ESG</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="entrada-chat">
+
+<input
+type="text"
+id="pergunta"
+placeholder="Digite sua pergunta..."
+>
+
+<button onclick="responder()">
+
+Enviar
+
+</button>
+
+</div>
+
+</section>
+
+<section class="atalhos">
+
+<h2>Perguntas Rápidas</h2>
+
+<div class="atalhos-grid">
+
+<button onclick="perguntaRapida('O que é ESG?')">
+
+O que é ESG?
+
+</button>
+
+<button onclick="perguntaRapida('Como funciona a compostagem?')">
+
+Compostagem
+
+</button>
+
+<button onclick="perguntaRapida('Como economizar água?')">
+
+Economia de Água
+
+</button>
+
+<button onclick="perguntaRapida('O que é carbono neutro?')">
+
+Carbono Neutro
+
+</button>
+
+<button onclick="perguntaRapida('O que são bioinsumos?')">
+
+Bioinsumos
+
+</button>
+
+<button onclick="perguntaRapida('O que é plantio direto?')">
+
+Plantio Direto
+
+</button>
+
+</div>
+
+</section>
+
+<footer>
+
+EcoBot • Assistente Ambiental
+
+</footer>
+
+</main>
+
+<script src="js/ecobot.js"></script>
+
+</body>
+
+</html>

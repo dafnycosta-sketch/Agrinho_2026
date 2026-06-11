@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+
+Calculadora de Carbono
+EcoAgro 2026
+
+</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- MENU LATERAL -->
+
+<aside class="sidebar">
+
+<h2>
+
+🌱 EcoAgro
+
+</h2>
+
+<nav>
+
+<a href="index.html">
+
+🏠 Início
+
+</a>
+
+<a href="carbono.html">
+
+🌎 Carbono
+
+</a>
+
+<a href="praticas.html">
+
+♻ Sustentabilidade
+
+</a>
+
+<a href="compostagem.html">
+
+🏫 Compostagem
+
+</a>
+
+<a href="ecobot.html">
+
+🤖 EcoBot
+
+</a>
+
+</nav>
+
+<div class="versao">
+
+Projeto Agrinho 2026
+
+</div>
+
+</aside>
+
+<!-- CONTEÚDO -->
+
+<main class="conteudo">
+
+<section class="container">
+
+<h1>
+
+🌎 Calculadora de Pegada de Carbono
+
+</h1>
+
+<p>
+
+Preencha os dados abaixo para descobrir
+o nível de sustentabilidade da sua propriedade.
+
+</p>
+
+<br>
+
+<input
+type="number"
+id="area"
+placeholder="Área preservada (hectares)"
+>
+
+<input
+type="number"
+id="arvores"
+placeholder="Quantidade de árvores"
+>
+
+<input
+type="number"
+id="fertilizante"
+placeholder="Uso de fertilizantes químicos (kg)"
+>
+
+<input
+type="number"
+id="bio"
+placeholder="Uso de bioinsumos (%)"
+>
+
+<button onclick="calcularCarbono()">
+
+Analisar Sustentabilidade
+
+</button>
+
+<!-- RESULTADO -->
+
+<div id="resultado">
+
+<h3>
+
+Resultado aparecerá aqui
+
+</h3>
+
+</div>
+
+<!-- CERTIFICADO -->
+
+<div id="certificado">
+
+<h3>
+
+🏆 Certificado ESG
+
+</h3>
+
+<p>
+
+Aguardando análise...
+
+</p>
+
+</div>
+
+<!-- ÁRVORE ESG -->
+
+<div class="container-arvore">
+
+<div id="arvore3d">
+
+🌱
+
+</div>
+
+</div>
+
+<!-- REPRESENTAÇÃO DA PROPRIEDADE -->
+
+<section class="fazenda">
+
+<h2>
+
+🌿 Representação Ambiental
+
+</h2>
+
+<div class="terreno">
+
+<div id="lago">
+
+💧
+
+</div>
+
+<div id="floresta">
+
+🌳
+
+</div>
+
+<div id="biodiversidade">
+
+🦋
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ESG -->
+
+<section class="esgHome">
+
+<h2>
+
+Indicadores ESG
+
+</h2>
+
+<div class="esgLinha">
+
+<span>
+
+🍃 Ambiental
+
+</span>
+
+<div class="barra">
+
+<div
+id="ambiental"
+class="preenchimento">
+
+</div>
+
+</div>
+
+<span id="txtAmbiental">
+
+0%
+
+</span>
+
+</div>
+
+<div class="esgLinha">
+
+<span>
+
+🍃🍃 Social
+
+</span>
+
+<div class="barra">
+
+<div
+id="social"
+class="preenchimento">
+
+</div>
+
+</div>
+
+<span id="txtSocial">
+
+0%
+
+</span>
+
+</div>
+
+<div class="esgLinha">
+
+<span>
+
+🍃🍃🍃 Governança
+
+</span>
+
+<div class="barra">
+
+<div
+id="governanca"
+class="preenchimento">
+
+</div>
+
+</div>
+
+<span id="txtGovernanca">
+
+0%
+
+</span>
+
+</div>
+
+</section>
+
+</section>
+
+<footer>
+
+EcoAgro 2026
+• Concurso Agrinho
+
+</footer>
+
+</main>
+
+<script src="js/carbono.js"></script>
+
+</body>
+
+</html>
